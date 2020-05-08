@@ -1,0 +1,45 @@
+#keyboard{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+}
+#keyboard i{
+   display: block;
+    font-size: 3rem;
+    margin: 0 5px;
+}
+.fa-caret-square-up{
+   width: 100%;
+   text-align:center;
+}
+#start{
+    font-size: 2rem;
+    position: fixed;
+    top:150px;
+    left:110px;
+    width: 100px;
+    background-color: #ffeaa7;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    border-radius: 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #fdcb6e;
+    cursor: pointer;
+}
+#gameover{
+    font-size: 2rem;
+    position: fixed;
+    top:100px;
+    left:70px;
+    text-align: center;
+    color:white;
+    display: none;
+}
+#scoretext{
+    font-size: 2rem;
+}

@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.7.3/nipplejs.js'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css' />
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+    <div id="scoretext">Score:<span id="Score">0</span></div>
+
+    <canvas id="myCanvas" width="300" height="300" style="border:1px solid #d3d3d3;">
+    </canvas>
+    <div id="gameover">GAME OVER</div>
+    <div id="start">start</div>
+    <div id="keyboard">
+        <i class="fas fa-caret-square-up" data-key="top"></i>
+        <i class="fas fa-caret-square-left" data-key="left"></i>
+        <i class="fas fa-caret-square-down" data-key="down"></i>
+        <i class="fas fa-caret-square-right" data-key="right"></i>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
