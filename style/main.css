@@ -4,12 +4,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 160px;
+  width: 300px;
 }
 #keyboard i{
    display: block;
-    font-size: 3rem;
-    margin: 0 5px;
+    font-size: 4rem;
+    margin: 10px 20px;
 }
 .fa-caret-square-up{
    width: 100%;
